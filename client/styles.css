@@ -1,0 +1,18 @@
+body {
+  background: radial-gradient(circle at top left,#141414,#000);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+h1 { color:#4caf50; margin-top:20px; }
+input, button {
+  padding:10px; border:none; border-radius:6px; margin:4px;
+}
+button { background:#4caf50; color:#fff; cursor:pointer; }
+#msgs {
+  list-style:none; padding:0; margin:20px auto; max-height:60vh; overflow-y:auto;
+  width:60%; background:#1a1a1a; border-radius:10px;
+}
+li { margin:5px; padding:6px; border-radius:6px; background:#222; }
+.mine { background:#133b7c; text-align:right; }
+.other { background:#7c1313; text-align:left; }

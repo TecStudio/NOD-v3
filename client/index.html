@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>NOD v3 💬</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <h1>NOD v3 ⚡</h1>
+    <div id="auth">
+      <input id="name" placeholder="Nombre">
+      <input id="pass" type="password" placeholder="Contraseña">
+      <button id="signup">Registrarse</button>
+      <input id="phone" placeholder="+NOD-000X">
+      <button id="login">Entrar</button>
+    </div>
+    <div id="chat" style="display:none;">
+      <p id="me"></p>
+      <ul id="msgs"></ul>
+      <input id="msg" placeholder="Mensaje...">
+      <button id="send">Enviar</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
